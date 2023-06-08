@@ -9,7 +9,7 @@
     @vite( 'resources/scss/app.scss')
 </head>
 
-<body class="container">
+<body >
     @include( 'partials.header' )
 
     <main>

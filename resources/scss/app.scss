@@ -1,1 +1,116 @@
 @import '~bootstrap/scss/bootstrap';
+
+.img-big {
+    width: 100%;
+    height: 500px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+   }
+   * {
+    margin: 0;
+    padding: 0;
+
+}
+header {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        li{
+            list-style-type: none;
+            margin: 0 15px;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height: 50px;
+            
+            a{
+                text-decoration: none;
+                padding: 5px;
+                color: black;
+                &:hover {
+                    background-color: lightblue;
+                }
+            }
+        }
+    }
+}
+.container {
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    margin-right: 40px;
+    
+
+}
+.but {
+    background-color: #0282F9;
+    margin-left: 45%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.sas {
+    position:absolute;
+    padding: 1rem;
+    background-color: #0282F9;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+.img {
+    max-width: 200px;
+    height: 250px;
+}
+.blas {
+    height: 300px;
+    width: 300px;
+}
+p {
+    color: white;
+}
+main {
+    background-color: black;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    color: #0282F9;
+    font-size: 20px;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background-color: #303030;
+    z-index: 999;
+}
+.box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    img {
+        margin-left: 10px;
+    }
+}
+button {
+    padding: 13px;
+    border: 2px solid rgb(71, 179, 215);
+    background-color: #303030;
+    cursor: pointer;
+    color: white;
+}
+.fre {
+    height: 70px;
+}
