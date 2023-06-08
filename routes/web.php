@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $title = 'titolo repo';
+
+    return view('welcome', compact( 'title' ));
+});
+Route::get('/about', function () {
+
+    $title = 'titolo about';
+
+    return view('about', compact( 'title' ));
 });

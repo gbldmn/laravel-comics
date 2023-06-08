@@ -2,7 +2,7 @@
 
 @section( 'content' )
 
-<h1> boolean </h1>
+<h1> sono il content main </h1>
 
 
 @endsection
