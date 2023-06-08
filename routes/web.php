@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $title = 'titolo repo';
+    $cards = config( 'comics.card' );
 
-    return view('welcome', compact( 'title' ));
+    return view('welcome', compact( 'title', 'cards' ));
 });
 Route::get('/about', function () {
 
